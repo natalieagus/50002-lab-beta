@@ -115,12 +115,6 @@
             },
             {
                 "file": {
-                    "type": "DiskFile",
-                    "path": "source/beta_manual_tester.luc"
-                }
-            },
-            {
-                "file": {
                     "type": "Component",
                     "path": "Miscellaneous/counter.luc"
                 }
@@ -135,6 +129,36 @@
                 "file": {
                     "type": "Component",
                     "path": "Miscellaneous/decoder.luc"
+                }
+            },
+            {
+                "file": {
+                    "type": "DiskFile",
+                    "path": "source/test_pc_unit.luc"
+                }
+            },
+            {
+                "file": {
+                    "type": "DiskFile",
+                    "path": "source/test_control_unit.luc"
+                }
+            },
+            {
+                "file": {
+                    "type": "DiskFile",
+                    "path": "source/test_regfile_unit.luc"
+                }
+            },
+            {
+                "file": {
+                    "type": "DiskFile",
+                    "path": "source/test_beta_cpu.luc"
+                }
+            },
+            {
+                "file": {
+                    "type": "DiskFile",
+                    "path": "source/tester_manual_beta.luc"
                 }
             }
         ],

@@ -1,4 +1,4 @@
-module beta_manual_tester#(
+module tester_manual_beta#(
     CLK_FREQ ~ 1000 : CLK_FREQ > 0)  
 (
     input clk,              // 100MHz clock
