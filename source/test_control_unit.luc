@@ -20,7 +20,7 @@ testbench test_control_unit {
             
             c{6h20, 1b0, 1b0, 1b1, 1b0, 1b0, 3b000, 1b0, 1b0, 1b0, 1b0, 6b000000, 2b01, 1b1, 1b0}, // 02 ADD
             c{6h21, 1b0, 1b0, 1b1, 1b0, 1b0, 3b000, 1b0, 1b0, 1b0, 1b0, 6b000001, 2b01, 1b1, 1b0}, // 03 SUB
-            c{6h22, 1b0, 1b0, 1b1, 1b0, 1b0, 3b011, 1b1, 1b0, 1b0, 1b0, 6b000000, 2b00, 1b1, 1b0}, // 04 MUL (ILLOP behaviour)
+            c{6h21, 1b0, 1b0, 1b1, 1b0, 1b0, 3b000, 1b0, 1b0, 1b0, 1b0, 6b000010, 2b01, 1b1, 1b0}, // 04 MUL 
             c{6h23, 1b0, 1b0, 1b1, 1b0, 1b0, 3b011, 1b1, 1b0, 1b0, 1b0, 6b000000, 2b00, 1b1, 1b0}, // 05 DIV (ILLOP behaviour)
             
             c{6h24, 1b0, 1b0, 1b1, 1b0, 1b0, 3b000, 1b0, 1b0, 1b0, 1b0, 6b110011, 2b01, 1b1, 1b0}, // 06 CMPEQ
